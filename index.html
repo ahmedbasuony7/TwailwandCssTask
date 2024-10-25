@@ -1,0 +1,872 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Landing Page   </title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--  css  normalize  -->
+    <link rel="stylesheet" href="./New folder/normalise.css">
+
+    <!-- all  min  css  -->
+    <link rel="stylesheet" href="./New folder/all.min.css">
+
+    <!--   Boostrap  Link    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body  >
+
+    <div class="holder  bg-slate-950   "  >
+        <div class="">
+            <div class="header p-3    flex   items-center     justify-between">
+                <div class="flex gap-10   items-center  justify-between">
+                    <div>
+                        <p class="text-slate-200  flex  items-center   "> 
+                            <span class="text-4xl  ">R</span>
+                            <span> eadymodelUI </span>
+                        </p>
+                    </div>
+
+                    <div  class="max-[767px]:hidden    ">
+                        <ul class="flex   gap-10      max-[815px]:gap-5  " >
+                            <li  class="text-blue-800    hover:text-blue-700" > Home  </li>
+                            <li  class="text-slate-200  hover:text-blue-700"> Team </li>
+                            <li  class="text-slate-200  hover:text-blue-700"> Feature </li>
+                            <li  class="text-slate-200  hover:text-blue-700"> Blog </li>
+                            <li  class="text-slate-200  hover:text-blue-700"> About </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="flex   items-center   justify-between   ">
+                    
+
+                    <div  class="max-[767px]:hidden   ">
+                        <form action=""  class="text-slate-300  relative   items-center flex  justify-items-center   justify-between ">
+                            <input class="h-9 min-[767px]:w-64   max-[815px]:w-52   rounded  w-64   bg-slate-950  border-solid border-2 border-slate-400  "    type="search"   />
+                            <p class="absolute  text-slate-400   min-[767px]:left-56   max-[815px]:left-44    left-56"> <i class="fa-solid fa-magnifying-glass"></i> </p>
+                        </form>
+                    </div>
+
+                    
+                    <div  class="mobile    min-[767px]:hidden    ">
+                        <button class="btn  hover:text-white  hover:border-none  hover:outline-none  outline-none  border-none  text-slate-100  text-2xl" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        
+                        <div class="offcanvas offcanvas-start  bg-slate-950      text-slate-100  "    tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header ">
+                                <div  class="logo ">
+                                    <div class="text-slate-200 items-center  flex u "> 
+                                        <span  class="text-3xl  ">R</span> 
+                                        <span  class=" "> eadymodelUI </span>
+                                    </div>
+                                </div>                           
+                                <button type="button" 
+                                    class="btn-close text-reset  rounded-full   bg-white  " 
+                                    data-bs-dismiss="offcanvas" aria-label="Close">
+                                </button>
+                            </div>
+
+                            <div class="offcanvas-body  "   >
+                                
+                                <div  class="links  ">
+                                    <ul>
+                                        <li  class="text-blue-700 pb-2  pl-3  ">
+                                            Home 
+                                        </li>
+                                        <hr  class="text-white  text-2xl  mb-2"  > 
+
+                                        <li  class="text-slate-100 pb-2  pl-3  ">
+                                            Team 
+                                        </li>
+                                        <hr  class="text-white  text-2xl  mb-3"  > 
+
+                                        <li  class="text-slate-100 pb-2  pl-3  ">
+                                            Features 
+                                        </li>
+                                        <hr  class="text-white  text-2xl mb-4"  > 
+
+                                        <li  class="text-slate-100 pb-2  pl-3  ">
+                                            Blogs 
+                                        </li>
+                                        <hr  class="text-white  text-2xl  mb-3  "  >
+                                        
+                                        <li  class="text-slate-100  pb-2  pl-3  ">
+                                            About 
+                                        </li>
+                                        <hr  class="text-white  text-2xl  mb-7"  > 
+
+                                        <li>
+                                            <div  class="">
+                                                <form action=""  class="text-slate-300  relative   items-center flex  justify-items-center   justify-between ">
+                                                    <input   placeholder="Searching Something...  " class="h-9  px-3  py-3 rounded  w-96   bg-slate-950  border-solid border-2 border-slate-400  "    type="search"   />
+                                                    <p class="absolute  text-slate-400  left-80"> <i class="fa-solid fa-magnifying-glass"></i> </p>
+                                                </form>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div> 
+
+            <div class="header-content bg-slate-950    
+                    text-center pt-32   ">
+                <h1 class=" text-5xl  text-white ">
+                    Build Landing Pages With 
+                    <br>
+                    Typeform integration
+                </h1>
+
+                <p  class="text-stone-400  max-[767px]:m-5   pt-5  ">
+                    empark on gastronomic journey with our curated dishes , deliviered prompttly 
+                    to your doorstep Evaluate Your dining 
+                    <br> 
+                    experience today , 
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                </p>
+
+                <div  class=" mx-10  pt-20  pl-20   pr-20 flex-wrap  flex  items-center   justify-items-center   justify-evenly">
+                        <div class="pt-6   ">
+                            <p  class="text-blue-600   text-3xl"> 10+ </p>
+                            <p  class="text-slate-200  text-2xl"> Years Experience  </p>
+                        </div>
+    
+                        <div  class="pt-6  ">
+                            <p  class="text-blue-600  text-3xl"> 890 </p>
+                            <p  class="text-slate-200  text-2xl"> cases solved  </p>
+                        </div>
+    
+                        <div  class="pt-6  ">
+                            <p  class=" text-blue-600  text-3xl"> 250 </p>
+                            <p  class="text-slate-200   text-2xl"> Business Patener </p>
+                        </div>
+                </div>
+
+                <div  class="headerButtons  pb-10  gap-10 flex  justify-center flex-wrap  bg-slate-950    
+                    text-center pt-14">
+                    <div>
+                        <button  class="max-[767px]:w-80  max-[767px]:outline-none  max-[767px]:border-none    outline-none  bg-blue-700 text-slate-200  rounded-md  border-solid border-2
+                            border-stone-500   p-3  w-48 "  >    
+                            start a free trail
+                        </button>
+                    </div>
+
+                    <div>
+                        <button  class="bg-slate-950 max-[767px]:w-80  max-[767px]:outline-none   text-slate-200  rounded-md  border-solid border-2
+                            border-stone-500   p-3  w-48"  
+                        > 
+                            Api documentation 
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="sections bg-slate-950  max-[767px]:mt-16  mt-36 ">
+                
+                <div  class="featureSection  bg-slate-950 ">
+                    <div class="bg-slate-950  ">
+                        <h2  class="text-white  text-center  text-3xl ">
+                            Our Features
+                        </h2>
+                        <p  class="text-stone-400  mt-8  px-2 max-[767px]:m-8   text-center">
+                            Quit elit labone in nisi dolore tempor anim laboris implus ad ad consequat id 
+                            Dolore et site mollit  <br>
+                            in nisi tempor culpa consectetur.  
+                        </p>
+                    </div>
+
+                    <div  class=" items-center flex  justify-items-center   justify-evenly
+                        mt-20  flex-wrap gap-y-7 m-10 pb-20
+                        ">
+                        <div class="bg-zinc-900     p-6 rounded-xl">
+                            <div  class=" mx-auto  w-12">
+                                <p  class=" text-center mt-1  rounded-lg   bg-gray-700  p-2  "  > 
+                                    <i  class="text-slate-300 text-2xl fa-solid fa-gear"></i>  
+                                </p>
+                            </div>
+
+                            <h2  class=" text-slate-200  text-center  pt-4  text-lg" > 
+                                Tailored Customization 
+                            </h2>
+
+                            <p class=" pt-3  text-center  text-gray-400" >
+                                custimize our project perfectly align with 
+                                <br>
+                                your brand and meet your unique 
+                                <br>
+                                reuirement 
+                            </p>
+                            <p  class=" text-center  pt-3 text-blue-800"   >
+                                learn more
+                            </p>
+                        </div>
+
+                        <div class="bg-zinc-900    p-6   rounded-xl">
+                            <div  class=" mx-auto  w-12">
+                                <p  class=" text-center mt-1  rounded-lg   bg-gray-700 p-2  "  > 
+                                    <i class="text-slate-300 text-2xl  fa-solid fa-shield-halved"></i>
+                                </p>
+                            </div>
+                            <h2  class="text-slate-200  text-center  pt-4  text-lg " > 
+                                Tailored Customization 
+                            </h2>
+
+                            <p class=" pt-3  text-center  text-gray-400 " >
+                                Reset easy knowing that your data is 
+                                <br>
+                                safeguarded by thr latest and most robust 
+                                <br>
+                                securiet Measures available. 
+                            </p>
+                            <p class=" text-center  pt-3 text-blue-800"  >
+                                learn more
+                            </p>
+                        </div>
+
+                        <div class="bg-zinc-900    p-6  rounded-xl">
+                            <div  class=" mx-auto  w-12">
+                                <p  class=" text-center mt-1  rounded-lg   bg-gray-700 p-2   "  > 
+                                    <i class="text-slate-300 text-2xl    fa-solid fa-hand-holding-medical"></i>
+                                </p>
+                            </div>
+                            <h2  class="text-slate-200  text-center  pt-4  text-lg " >
+                                24/7 Customer Support  
+                            </h2>
+                            <p class="text-gray-400  pt-3  text-center  " >
+                                Get prompt and reliable assistant with  our  
+                                <br>
+                                24/7 Customer Support for all your requires 
+                                <br> 
+                                and conceries. 
+                            </p>
+                            <p  class=" text-center  pt-3 text-blue-800"  >
+                                learn more
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div  class="pb-52  max-[767px]:pb-16  ">
+                        <h1  class=" text-4xl  text-center     text-slate-100
+                            max-[767px]:text-center  max-[767px]:m-7 "
+                        >  
+                            Transform Your Ideas Eith Our Comprehensive 
+                            <br> 
+                            Template Library  
+                        </h1>
+
+                        <p class=" text-gray-500  mt-7 px-9  text-center">  
+                            unlock creativity with our versatile  ternpiates designed to elevate your landing pages wheter youare showcasting 
+                            <br>
+                            products collection feedback or promoting events our templates make theprocess seamiess and visually compelling 
+                            <br> 
+                            our elit labore in inis dolodretempar anim laboris implusa ad ad consequat id. Dolore et sint mollit in insi tempar culpa 
+                            <br>  
+                            consectetur.
+                        </p>
+
+                        <div  class="flex  justify-center  mt-10">
+                            <button  class=" bg-blue-800 p-3 rounded-md  w-44 text-lg  text-slate-200  outline-none  border-none ">
+                                Get started today
+                            </button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div  class="svgSection  pb-32   max-[767px]:pb-16  ">
+                    <div  class="flex  justify-evenly   items-center  flex-wrap ">
+                        <div  class="max-w-screen-sm  m-5">
+                            <img class="  "   src="./6587173.jpg" alt="">
+                        </div>
+
+                        <div  class="m-5">
+                            <h1 class="text-2xl   text-slate-200   max-[767px]:text-center " >  
+                                Try Using Templates With 
+                                <br>
+                                twailwand css
+                            </h1>
+
+                            <p class="mt-8  mb-8    text-slate-400  max-[767px]:text-center  ">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ullam  
+                                <br>ipsa suscipit quaerat quis, iusto voluptate ratione non eius accusantium   
+                                <br>
+                                debitis voluptates distinctio itaque nulla optio fuga magni ipsam nisi.
+                            </p>
+
+                            <button  class="bg-blue-700  w-32 p-3   rounded-md  text-slate-200 
+                                max-[767px]:ml-20  "
+                            >
+                                Try it today
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div  class="flex  justify-evenly  pt-10  items-center  flex-wrap ">
+
+                        <div  class="m-5">
+                            <h1 class="text-2xl  max-[767px]:text-center   text-slate-200" >  
+                                Evaluate Your experience  With 
+                                <br>
+                                Modern Elegance
+                            </h1>
+
+                            <p class="mt-8  mb-8  max-[767px]:text-center   text-slate-400">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ullam  
+                                <br>ipsa suscipit quaerat quis, iusto voluptate ratione non eius accusantium   
+                                <br>
+                                debitis voluptates distinctio itaque nulla optio fuga magni ipsam nisi.
+                            </p>
+
+                            <button  class="bg-blue-700  w-32 p-3  max-[767px]:ml-20  rounded-md  text-slate-200 ">
+                                Try it today
+                            </button>
+
+                        </div>
+
+                        <div  class="max-w-screen-sm  m-5">
+                            <img class="  "   src="./photo-1542744095-fcf48d80b0fd.avif" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div  class="testimonialSection  pb-52  max-[767px]:pb-16  ">
+                    <div  class="">
+                        <h1  class="max-[767px]:text-center  max-[767px]:m-4   text-center  text-4xl  text-slate-200">
+                            What Our Happy Clien Say 
+                        </h1>
+                        <p  class="text-center  text-slate-400  max-[767px]:text-center  max-[767px]:m-5  mt-7">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim et quibusdam ab
+                            <br>
+                            ipsum dicta ratione repudiandae laudantium inventore tempore reprehenderit? 
+                            <br> Harum eveniet at distinctio rem. Corrupti tempore rem quibusdam nobis!
+                        </p>
+                    </div>
+
+                    <div  class="flex  justify-evenly mx-10  align-center flex-wrap">
+                        
+                        <div class="m-5   ">
+                            <div class="text-center   ">
+                                <p class=" flex justify-center    max-[767px]:translate-x-12  translate-x-24  ml-3  w-20  h-20 border-2 border-gray-400 rounded-full ">
+                                    <img class="border-none   outline-none    "   src="./imges/ava-01.png  " alt="">
+                                </p>
+                                
+                                <h1 class=" mt-5  text-slate-200">  
+                                    john Doe
+                                </h1>
+                                <p  class="text-blue-700  mt-3"> 
+                                    CEO Company
+                                </p>
+                            </div>
+
+                            <br>
+                            <p class="text-center  text-gray-400"> 
+                                Lorem ipsum dolor sit amet consectetur <br>
+                                adipisicing elit. Rem vitae asperiores quas <br>
+                                ipsam incidunt, debitis quibusdam! <br> 
+                            </p>
+
+                            <div  class="  flex  justify-center  mt-10  gap-3 ">
+                                <p class="text-blue-800"> <i class="fa-solid fa-star"></i>  </p>
+                                <p class="text-blue-800"> <i class="fa-solid fa-star"></i>  </p>
+                                <p class="text-blue-800"> <i class="fa-solid fa-star"></i> </p>
+                                <p class="text-slate-200"> <i class="fa-solid fa-star"></i>  </p>
+                                <p class="text-slate-200"> <i class="fa-solid fa-star"></i>  </p>
+                            </div>
+
+                        </div>
+
+                        <div class="m-5   ">
+
+                            <div class="text-center   ">
+                                <p class=" flex justify-center  max-[767px]:translate-x-12   translate-x-24  ml-3   w-20  h-20 border-2 border-gray-400 rounded-full ">
+                                    <img class="border-none   outline-none    "   src="./imges/ava-06.png  " alt="">
+                                </p>
+                                
+                                <h1 class=" mt-5  text-slate-200">  
+                                    john Doe
+                                </h1>
+                                <p  class="text-blue-700  mt-3"> 
+                                    CEO Company
+                                </p>
+                            </div>
+
+
+                            <br>
+                            <p class="text-center  text-gray-400"> 
+                                Lorem ipsum dolor sit amet consectetur <br>
+                                adipisicing elit. Rem vitae asperiores quas <br>
+                                ipsam incidunt, debitis quibusdam! <br> 
+                            </p>
+
+                            <div  class="  flex  justify-center  mt-10  gap-3 ">
+                                <p class="text-blue-800"> <i class="fa-solid fa-star"></i>  </p>
+                                <p class="text-blue-800"> <i class="fa-solid fa-star"></i>  </p>
+                                <p class="text-blue-800"> <i class="fa-solid fa-star"></i> </p>
+                                <p class="text-blue-800"> <i class="fa-solid fa-star"></i> </p>
+                                <p class="text-blue-800"> <i class="fa-solid fa-star"></i> </p>
+                            </div>
+                        </div>
+
+                        <div class="m-5   ">
+                            <div class="text-center   ">
+                                <p class=" flex justify-center  max-[767px]:translate-x-12   translate-x-24  ml-3  w-20  h-20 border-2 border-gray-400 rounded-full ">
+                                    <img class="border-none   outline-none    "   src="./imges/ava-04.png  " alt="">
+                                </p>
+                                
+                                <h1 class=" mt-5  text-slate-200">  
+                                    john Doe
+                                </h1>
+                                <p  class="text-blue-700  mt-3"> 
+                                    CEO Company
+                                </p>
+                            </div>
+
+                            <br>
+                            <p class="text-center  text-gray-400"> 
+                                Lorem ipsum dolor sit amet consectetur <br>
+                                adipisicing elit. Rem vitae asperiores quas <br>
+                                ipsam incidunt, debitis quibusdam! <br> 
+                            </p>
+                            <div  class="  flex  justify-center  mt-10  gap-3 ">
+                                <p class="text-blue-800"> <i class="fa-solid fa-star"></i>  </p>
+                                <p class="text-blue-800"> <i class="fa-solid fa-star"></i>  </p>
+                                <p class="text-blue-800"> <i class="fa-solid fa-star"></i> </p>
+                                <p class="text-blue-800"> <i class="fa-solid fa-star"></i> </p>
+                                <p class="text-slate-200"> <i class="fa-solid fa-star"></i>  </p>
+                            </div>
+
+
+
+                           
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="PricingSection gap-5  mb-16 bg-slate-950 ">
+                    <div class="">
+                        <h1  class="text-4xl  text-slate-200   text-center ">
+                            Pricing Plan 
+                        </h1>
+
+                        <p class=" text-center  text-slate-400  mt-10 ">
+                            change your plan according to need
+                        </p>
+                    </div>
+
+                    <div  class="flex  mt-20     max-[767px]:text-center   justify-around  flex-wrap">
+                        
+                        <div  class="mb-12  m-15  bg-slate-950 ">
+                            <h1  class="text-slate-200">
+                                Hoppy
+                            </h1>
+                            <p  class="text-4xl  mt-5  text-slate-200 ">
+                                $10.00
+                            </p>
+
+                            <p class="mt-5  text-slate-400   max-[767px]:m-3">
+                                ideal for induividuals  who need quick acces to 
+                                <br> basic feature.
+                            </p>
+
+                            <div  class="mt-10">
+                                <ul >
+                                    <li  class="text-gray-400 mt-2"> 
+                                        <span class="text-slate-200   mr-4">   <i class="fa-solid fa-circle-check"></i>    </span> 
+                                        50 image gernerations 
+                                    </li>
+                                    <li  class="text-gray-400  mt-2 max-[767px]:mr-20 "> 
+                                        <span class="text-slate-200   mr-4">   <i class="fa-solid fa-circle-check"></i>    </span> 
+                                        500 credite 
+                                    </li>
+                                    <li  class="text-gray-400  mt-2  max-[767px]:ml-2"> 
+                                        <span class="text-slate-200   mr-4">   <i class="fa-solid fa-circle-check"></i>    </span> 
+                                        Monthly 100 credit free  
+                                    </li>
+                                    <li  class="text-gray-400  mt-2  max-[767px]:mr-7"> 
+                                        <span class="text-slate-200  mr-4  ">   <i class="fa-solid fa-circle-check"></i>    </span> 
+                                        Customer support  
+                                    </li>
+                                    <li  class="text-gray-400  mt-2  max-[767px]:mr-7"> 
+                                        <span class="text-slate-200   mr-4">   <i class="fa-solid fa-circle-check"></i>    </span> 
+                                        500 cloud Storage 
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <button  class="text-xl p-3 mt-10  bg-blue-800  w-80  text-slate-200 rounded-md ">
+                                Get start today
+                            </button>
+
+                        </div>
+
+
+                        <div  class="mb-12  m-15  bg-slate-950 ">
+                            <h1  class="text-slate-200">
+                                Professional
+                            </h1>
+                            <p  class="text-4xl  mt-5  text-slate-200 ">
+                                $30.00
+                            </p>
+
+                            <p class="mt-5  text-slate-400   max-[767px]:text-center   max-[767px]:m-12">
+                                ideal for induividuals  who need advanced features <br>
+                                and tools for client work.
+                            </p>
+
+                            <div  class="mt-10">
+                                <ul >
+                                    <li  class="text-gray-400 mt-2"> 
+                                        <span class="text-slate-200   mr-4">   <i class="fa-solid fa-circle-check"></i>    </span> 
+                                        500 image gernerations 
+                                    </li>
+                                    <li  class="text-gray-400  mt-2   max-[767px]:mr-20"> 
+                                        <span class="text-slate-200   mr-4">   <i class="fa-solid fa-circle-check"></i>    </span> 
+                                        5000 credite 
+                                    </li>
+                                    <li  class="text-gray-400  mt-2    max-[767px]:ml-2"> 
+                                        <span class="text-slate-200   mr-4">   <i class="fa-solid fa-circle-check"></i>    </span> 
+                                        Monthly 1000 credit free  
+                                    </li>
+                                    
+                                    <li  class="text-gray-400  mt-2   max-[767px]:mr-9"> 
+                                        <span class="text-slate-200  mr-4">   <i class="fa-solid fa-circle-check"></i>    </span> 
+                                        Customer support  
+                                    </li>
+                                    <li  class="text-gray-400  mt-2  max-[767px]:mr-7"> 
+                                        <span class="text-slate-200   mr-4">   <i class="fa-solid fa-circle-check"></i>    </span> 
+                                        5000 cloud Storage 
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <button  class="text-xl p-3 mt-10  bg-blue-800  w-80  text-slate-200 rounded-md ">
+                                Get start today
+                            </button>
+
+                        </div>
+
+                        <div  class="mb-12  m-15  bg-slate-950 ">
+                            <h1  class="text-slate-200">
+                                Bussiness
+                            </h1>
+                            <p  class="text-4xl  mt-5  text-slate-200 ">
+                                $45.00
+                            </p>
+
+                            <p class="mt-5  text-slate-400">
+                                ideal for businesses  who need personlized <br>
+                                service and security for large teams.
+                            </p>
+
+                            <div  class="mt-10">
+                                <ul >
+                                    <li  class="text-gray-400 mt-2   max-[767px]:ml-12"> 
+                                        <span class="text-slate-200   mr-4  ">   <i class="fa-solid fa-circle-check"></i>    </span> 
+                                        1000 image gernerations 
+                                    </li>
+                                    <li  class="text-gray-400  mt-2   max-[767px]:mr-10"> 
+                                        <span class="text-slate-200   mr-4">   <i class="fa-solid fa-circle-check"></i>    </span> 
+                                        8000 credite 
+                                    </li>
+                                    <li  class="text-gray-400  mt-2   max-[767px]:ml-11  "> 
+                                        <span class="text-slate-200   mr-4">   <i class="fa-solid fa-circle-check"></i>    </span> 
+                                        Monthly 5000 credit free  
+                                    </li>
+                                    <li  class="text-gray-400  mt-2   "> 
+                                        <span class="text-slate-200  mr-4">   <i class="fa-solid fa-circle-check"></i>    </span> 
+                                        Customer support  
+                                    </li>
+                                    <li  class="text-gray-400  mt-2  max-[767px]:ml-4"> 
+                                        <span class="text-slate-200   mr-4">   <i class="fa-solid fa-circle-check"></i>    </span> 
+                                        15000 cloud Storage 
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <button  class="text-xl p-3 mt-10  bg-blue-800  w-80  text-slate-200 rounded-md ">
+                                Get start today
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div  class="BlogSection  mb-16 bg-slate-950">
+                    <div class="">
+                        <h1 class="text-center  text-4xl  text-slate-200">
+                            LATEST BLOGS 
+                        </h1>
+
+                        <p  class="text-center  mt-8  text-gray-300  max-[767px]:m-4 ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                    </div>
+
+                    <div class=" flex  flex-wrap  justify-around  items-center mb-16  
+                        mt-16   ">
+                        <div>
+                            <p  class="text-gray-400  m-7    "   > 10 FEB 2023  </p>
+                            <h1 class="text-slate-300 m-7">  
+                                AGuide to igniting Your imagation.
+                            </h1>
+
+                            <p  class="text-gray-400 m-7" >
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.  
+                                <br>Distinctio  ullam sint eaque quibusdam, maxime explicabo est 
+                                <br> sapiente deserunt, modi molestiae eius? Iste veritatis  
+                                <br>quibusdam dolores itaque molestiae sit beatae? Placeat.
+                            </p>
+
+                            <hr  class="text-slate-400  ml-7 w-80 ">
+
+                            <div  class="flex m-7    mt-6  items-center  gap-6">
+                                <img   class="w-8 h-8  " src="./imges/ava-01.png" alt="">
+                                <p  class="text-gray-400"> Br JOWN Doe  </p>
+                            </div>
+
+                            <br>
+
+                        </div>
+
+                        <div>
+                            <p  class="text-gray-400  m-7"  > 7 Jun  2023  </p>
+                            <h1 class="text-slate-300 m-7">  
+                                Hocks Supercharge Your Day .
+                            </h1>
+
+                            <p  class="text-gray-400 m-7" >
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.  
+                                <br>Distinctio  ullam sint eaque quibusdam, maxime explicabo est 
+                                <br> sapiente deserunt, modi molestiae eius? Iste veritatis  
+                                <br>quibusdam dolores itaque molestiae sit beatae? Placeat.
+                            </p>
+
+                            <hr  class="text-slate-400 m-7  w-80 ">
+
+                            <div  class="flex  m-7   mt-6  items-center  gap-6">
+                                <img   class="w-8 h-8  " src="./imges/ava-04.png" alt="">
+                                <p  class="text-gray-400"> Mr MARY ADAR  </p>
+                            </div>
+
+                            <br>
+
+                        </div>
+
+                        <div>
+                            <p  class="text-gray-400  m-7"  > 5 Oct 2023  </p>
+                            <h1 class="text-slate-300 m-7">  
+                                ATrends and predection.
+                            </h1>
+
+                            <p  class="text-gray-400 m-7" >
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.  
+                                <br>Distinctio  ullam sint eaque quibusdam, maxime explicabo est 
+                                <br> sapiente deserunt, modi molestiae eius? Iste veritatis  
+                                <br>quibusdam dolores itaque molestiae sit beatae? Placeat.
+                            </p>
+
+                            <hr  class="text-slate-400 m-7  w-80 ">
+
+                            <div  class="flex m-7   mt-6  items-center  gap-6">
+                                <img   class="w-8 h-8  " src="./imges/ava-06.png" alt="">
+                                <p  class="text-gray-400"> Bx Simon  KoniCIO  </p>
+                            </div>
+
+                            <br>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="ApplicationSection  mb-16 bg-slate-950">
+                    <div>
+                        <h1 class=" mt-10  max-[767px]:mt-6  text-center  text-slate-200   text-4xl ">
+                            Applications Metrics
+                        </h1>
+
+                        <p  class="text-center  text-gray-400  m-9  max-[767px]:m-12 " >
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                            Aperiam ea aliquid qui suscipit harum, <br> 
+                        </p>
+                    </div>
+
+                    <div  class="flex    justify-around   flex-wrap m-10  items-center mt-16  " >
+                        <div  class=" max-[767px]:w-full   max-[767px]:ml-24  ">
+                            <p  >
+                                <i class=" translate-x-6  text-blue-700  text-center text-3xl   fa-solid fa-users-line"></i>
+                            </p>
+                            <p class=" text-blue-700  text-5xl  mt-4 ">
+                                400+
+                            </p>
+                            <p class="text-slate-300  mt-4 ">
+                                Uniue Vistiors 
+                            </p>
+
+                        </div>
+
+                        <div  class=" max-[767px]:w-full  max-[767px]:mt-12   max-[767px]:ml-24   " >
+                            <p  >
+                                <i class="translate-x-6  text-blue-700  text-center text-3xl  fa-solid fa-arrow-up-right-dots"></i>
+                            </p>
+                            <p class=" text-blue-700  text-5xl mt-4  ">
+                                450+
+                            </p>
+                            <p class="text-slate-300  mt-4"  >
+                                    Total Sales  
+                            </p>
+
+                        </div>
+
+
+                        <div  class="  max-[767px]:w-full max-[767px]:mt-12    max-[767px]:ml-24  ">
+                            <p  >
+                                <i class="translate-x-6  text-blue-700  text-center text-3xl   fa-solid fa-thumbs-up"></i>
+                            </p>
+                            <p class=" text-blue-700 mt-4  text-5xl  ">
+                                500+
+                            </p>
+                            <p class="text-slate-300  mt-4">
+                                Uniue Vistiors 
+                            </p>
+
+                        </div>
+
+                        <div  class=" max-[767px]:w-full   max-[767px]:mt-12   max-[767px]:ml-24  ">
+                            <p  >
+                                <i class=" translate-x-6  text-blue-700  text-center text-3xl    fa-regular fa-clock"></i>
+                            </p>
+                            <p class=" text-blue-700 mt-4  text-5xl  ">
+                                600+
+                            </p>
+                            <p class="text-slate-300  mt-4">
+                                Uniue Vistiors 
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div  class="bg-slate-900 pb-24   max-[767px]:pb-16 ">
+            <div  class=" "  >
+                <h1  class="text-center   pt-10  text-slate-200  text-4xl ">
+                    Newsletter
+                </h1>
+
+                <p  class="text-center text-gray-400 m-6  ">
+                    Sbscribe to our newsletter and stay up to date with the lateste newes updates and exculsive offers get Voluable 
+                    <br>  insights Join Our community Today
+                </p>
+                <div  class=" mt-20  pb-5  min-[767px]:flex  min-[767px]:justify-center     relative">
+                    <div  class="   min-[767px]:flex  min-[767px]:justify-center  ">
+                        <form action=""  class="absolute   max-[767px]:ml-6   ">
+                            <input  
+                                class=" min-[767px]:w-96 max-[767px]:w-64   p-2 outline-none  border-none    "     
+                                type="email"   placeholder="enter your email"
+                            >
+                            
+                            <button  
+                                class="bg-blue-800   text-slate-200  left-61  p-2 absolute" >
+                                Submit
+                            </button>
+                        
+                        </form>
+                    </div>
+                
+
+                </div> 
+
+            </div>
+
+        </div>
+
+        <div  class="  footer  bg-slate-900 pb-12 ">
+
+            <hr   class="text-white   max-[767px]:w-80   max-[767px]:ml-6 ">
+
+            <ul  class="pt-10  flex  justify-around  flex-wrap ">
+                <li  class="text-slate-200  ml-5  mt-5  text-lg  max-[767px]:w-full">
+                    About Us 
+
+                    <p class=" text-gray-400  mt-3 max-[767px]:w-full    text-base" >
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        <br> Maxime nobis porro fugiat, ratione adipisci eveniet 
+                        <br> alias iste, earum et a optio laboriosam nihil, obcaecati
+                        <br> blanditiis accusamus officia. Expedita, similique libero!
+                    </p>
+                </li>
+
+                <li  class="  text-slate-200    ml-5  mt-5   text-lg  max-[767px]:w-full  ">
+                    Services
+                    <ul>
+                        <li  class="text-gray-400 mt-2  text-base"> Web Development  </li>
+                        <li  class="text-gray-400 mt-2  text-base"  >  Mobile Develoment </li>
+                        <li  class="text-gray-400 mt-2  text-base"  > UI/UX  Design </li>
+                        <li  class="text-gray-400 mt-2  text-base"  > Digital Marketing  </li>
+                    </ul>
+                </li>
+
+                <li  class="  text-slate-200  ml-5  mt-5  text-lg  max-[767px]:w-full ">
+                    Resources
+                    <ul>
+                        <li  class="text-gray-400  mt-2   text-base" >  Webinars </li>
+                        <li  class="text-gray-400  mt-2  text-base"   > Ebooks </li>
+                        <li  class="text-gray-400  mt-2  text-base"  > Templates   </li>
+                        <li  class="text-gray-400  mt-2  text-base"  > Tutorials   </li>
+
+                    </ul>
+                </li>
+
+                <li  class="  text-slate-200  ml-5  mt-5  text-lg  max-[767px]:w-full  ">
+                    About Us 
+                    <ul>
+                        <li  class="text-gray-400  mt-2  text-base"> Our Story   </li>
+                        <li  class="text-gray-400  mt-2  text-base"  >  Mission and Values </li>
+                        <li  class="text-gray-400  mt-2  text-base"  > Ebooks </li>
+                        <li  class="text-gray-400  mt-2 text-base "  > Teams   </li>
+                        <li  class="text-gray-400  mt-2 text-base "  > Testimonials   </li>
+
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
+
+ 
